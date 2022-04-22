@@ -1,0 +1,88 @@
+body {
+  background-color: #f8f5ee;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #adedcc;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:active {
+  background-color: ghostwhite;
+  color: black;
+}
+
+.navbar-toggler,
+#navbarNav {
+  visibility: hidden;
+}
+
+/* 
+#navbarNav li {
+  text-align: center;
+} */
+
+#navbarNav span {
+  margin-left: 8px;
+}
+
+.menu-header {
+  color: green;
+  text-align: center;
+  text-shadow: 0px 3px 5px #626363;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.menu-item div {
+  background-color: #dbdbdb;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.4);
+}
+
+.menu-item h4 {
+  text-align: center;
+  color: #e86a2a;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#top-link {
+  visibility: hidden;
+  text-decoration: none;
+  color: #9135b0;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .menu-item div {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-item div {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    visibility: visible;
+  }
+
+  #navbarNav {
+    visibility: visible;
+  }
+
+  #top-link {
+    visibility: visible;
+  }
+}
